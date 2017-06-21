@@ -73,7 +73,7 @@ color AB
 color CD
 color EF
 set /a loop=%loop%+1
-if %loop%==8 goto start
+if %loop%==50 goto start
 goto loop
 
 :start
