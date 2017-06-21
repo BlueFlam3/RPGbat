@@ -1,0 +1,355 @@
+***Start/Intro***
+@echo off
+cls
+echo    ______                     _         ______            __                      ____                  __ 
+echo   / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo  / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                      /____/                               
+echo  _____ _____ _____ _______   _______ _____   _    _  ___  ______ _   _ _____ _   _ _____ 
+echo /  ___|  ___|_   _|___  / | | | ___ \  ___| | |  | |/ _ \ | ___ \ \ | |_   _| \ | |  __ \ 
+echo \ `--.| |__   | |    / /| | | | |_/ / |__   | |  | / /_\ \| |_/ /  \| | | | |  \| | |  \/
+echo  `--. \  __|  | |   / / | | | |    /|  __|  | |/\| |  _  ||    /| . ` | | | | . ` | | __  
+echo /\__/ / |___ _| |_./ /__| |_| | |\ \| |___  \  /\  / | | || |\ \| |\  |_| |_| |\  | |_\ \
+echo \____/\____/ \___/\_____/\___/\_| \_\____/   \/  \/\_| |_/\_| \_\_| \_/\___/\_| \_/\____/ 
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+cls
+echo     ______                     _         ______            __                      ____                  __ 
+echo    / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo   / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo  / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo  \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                       /____/                               
+echo  _____ _____ _____ _______   _______ _____   _    _  ___  ______ _   _ _____ _   _ _____ 
+echo /  ___|  ___|_   _|___  / | | | ___ \  ___| | |  | |/ _ \ | ___ \ \ | |_   _| \ | |  __ \ 
+echo \ `--.| |__   | |    / /| | | | |_/ / |__   | |  | / /_\ \| |_/ /  \| | | | |  \| | |  \/
+echo  `--. \  __|  | |   / / | | | |    /|  __|  | |/\| |  _  ||    /| . ` | | | | . ` | | __  
+echo /\__/ / |___ _| |_./ /__| |_| | |\ \| |___  \  /\  / | | || |\ \| |\  |_| |_| |\  | |_\ \
+echo \____/\____/ \___/\_____/\___/\_| \_\____/   \/  \/\_| |_/\_| \_\_| \_/\___/\_| \_/\____/ 
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+cls
+echo      ______                     _         ______            __                      ____                  __ 
+echo     / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo    / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo   / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo   \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                        /____/                               
+echo  _____ _____ _____ _______   _______ _____   _    _  ___  ______ _   _ _____ _   _ _____ 
+echo /  ___|  ___|_   _|___  / | | | ___ \  ___| | |  | |/ _ \ | ___ \ \ | |_   _| \ | |  __ \ 
+echo \ `--.| |__   | |    / /| | | | |_/ / |__   | |  | / /_\ \| |_/ /  \| | | | |  \| | |  \/
+echo  `--. \  __|  | |   / / | | | |    /|  __|  | |/\| |  _  ||    /| . ` | | | | . ` | | __  
+echo /\__/ / |___ _| |_./ /__| |_| | |\ \| |___  \  /\  / | | || |\ \| |\  |_| |_| |\  | |_\ \
+echo \____/\____/ \___/\_____/\___/\_| \_\____/   \/  \/\_| |_/\_| \_\_| \_/\___/\_| \_/\____/ 
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+cls
+echo        ______                     _         ______            __                      ____                  __ 
+echo       / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo      / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo     / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo     \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                          /____/                               
+echo  _____ _____ _____ _______   _______ _____   _    _  ___  ______ _   _ _____ _   _ _____ 
+echo /  ___|  ___|_   _|___  / | | | ___ \  ___| | |  | |/ _ \ | ___ \ \ | |_   _| \ | |  __ \ 
+echo \ `--.| |__   | |    / /| | | | |_/ / |__   | |  | / /_\ \| |_/ /  \| | | | |  \| | |  \/
+echo  `--. \  __|  | |   / / | | | |    /|  __|  | |/\| |  _  ||    /| . ` | | | | . ` | | __  
+echo /\__/ / |___ _| |_./ /__| |_| | |\ \| |___  \  /\  / | | || |\ \| |\  |_| |_| |\  | |_\ \
+echo \____/\____/ \___/\_____/\___/\_| \_\____/   \/  \/\_| |_/\_| \_\_| \_/\___/\_| \_/\____/ 
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+cls
+echo         ______                     _         ______            __                      ____                  __ 
+echo        / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo       / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo      / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo      \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                         /____/                               
+echo  _____ _____ _____ _______   _______ _____   _    _  ___  ______ _   _ _____ _   _ _____ 
+echo /  ___|  ___|_   _|___  / | | | ___ \  ___| | |  | |/ _ \ | ___ \ \ | |_   _| \ | |  __ \ 
+echo \ `--.| |__   | |    / /| | | | |_/ / |__   | |  | / /_\ \| |_/ /  \| | | | |  \| | |  \/
+echo  `--. \  __|  | |   / / | | | |    /|  __|  | |/\| |  _  ||    /| . ` | | | | . ` | | __  
+echo /\__/ / |___ _| |_./ /__| |_| | |\ \| |___  \  /\  / | | || |\ \| |\  |_| |_| |\  | |_\ \
+echo \____/\____/ \___/\_____/\___/\_| \_\____/   \/  \/\_| |_/\_| \_\_| \_/\___/\_| \_/\____/ 
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+cls
+echo          ______                     _         ______            __                      ____                  __ 
+echo         / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo        / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo       / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo       \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                            /____/                               
+echo  _____ _____ _____ _______   _______ _____   _    _  ___  ______ _   _ _____ _   _ _____ 
+echo /  ___|  ___|_   _|___  / | | | ___ \  ___| | |  | |/ _ \ | ___ \ \ | |_   _| \ | |  __ \ 
+echo \ `--.| |__   | |    / /| | | | |_/ / |__   | |  | / /_\ \| |_/ /  \| | | | |  \| | |  \/
+echo  `--. \  __|  | |   / / | | | |    /|  __|  | |/\| |  _  ||    /| . ` | | | | . ` | | __  
+echo /\__/ / |___ _| |_./ /__| |_| | |\ \| |___  \  /\  / | | || |\ \| |\  |_| |_| |\  | |_\ \
+echo \____/\____/ \___/\_____/\___/\_| \_\____/   \/  \/\_| |_/\_| \_\_| \_/\___/\_| \_/\____/ 
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+ping -n 1 localhost>nul
+set loop=0
+:loop
+color 12
+color 34
+color 56
+color 78
+color 90
+color AB
+color CD
+color EF
+color 0f
+set /a loop=%loop%+1
+if %loop%==50 goto start
+goto loop
+
+:start
+cls
+title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
+set /p name=Welcome to the game, what is your name?:
+if %name%==AAAAAA echo That's not original!
+ping localhost -n 3 >nul
+if %name%==ChrisPBacon goto crispy
+
+***Character Creation***
+:selectclass
+cls
+echo Welcome to the game, %name%!
+ping localhost -n 2 >nul
+echo Warrior
+echo Paladin
+echo Mage
+echo Cleric
+set /p CLASS=What class would you like to be?:
+if %CLASS%==Warrior goto Sure
+if %CLASS%==Paladin goto Sure
+if %CLASS%==Mage goto Sure
+if %CLASS%==Cleric goto clerichealer
+echo That is not a class!
+pause
+goto selectclass
+
+:Sure
+cls
+set /p question1=Your class is %CLASS%, is this correct Y/N?:
+if %question1%==Y goto skillselect1
+if %question1%==N goto selectclass
+echo That is an invalid option.
+pause
+goto Sure
+
+:clerichealer
+cls
+set /p option=Your class is %CLASS%, is this correct Y/N?:
+if %option%==Y goto clerichealer2
+if %option1%==N goto selectclass
+echo That is an invalid option.
+pause
+clerichealer
+
+:clerichealer2
+set /p option=Are you sure you wish to be the Cleric? This class does 0 damage and can only heal Y/N!:
+if %option%==Y goto skillselect1
+if %option%==N goto selectclass
+
+:skillselect1
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point0=What attribute do you wish to level up with your 1st point?
+if point0==W echo Increased weight by 10!
+if point0==AD echo Increased Attack Damage by 20!
+if point0==MD echo Increased Magic Damage by 15!
+if point0==HE echo Increased Healing Effectiveness by 10 Health!
+goto skillselect2
+
+:skillselect2
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point1=What attribute do you wish to level up with your 2nd point?
+if point1==W echo Increased weight by 10!
+if point1==AD echo Increased Attack Damage by 20!
+if point1==MD echo Increased Magic Damage by 15!
+if point1==HE echo Increased Healing Effectiveness by 10 Health!
+echo Current Stats %point0%
+goto skillselect3
+
+:skillselect3
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point2=What attribute do you wish to level up with your 3rd point?
+if point2==W echo Increased weight by 10!
+if point2==AD echo Increased Attack Damage by 20!
+if point2==MD echo Increased Magic Damage by 15!
+if point2==HE echo Increased Healing Effectiveness by 10 Health!
+echo Current Stats: %point0% %point1%
+goto skillselect4
+
+:skillselect4
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point3=What attribute do you wish to level up with your 4th point?
+if point3==W echo Increased weight by 10!
+if point3==AD echo Increased Attack Damage by 20!
+if point3==MD echo Increased Magic Damage by 15!
+if point3==HE echo Increased Healing Effectiveness by 10 Health!
+echo Current Stats: %point0% %point1% %point2%
+goto skillselect5
+
+:skillselect5
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point4=What attribute do you wish to level up with your 5th point?
+if point4==W echo Increased weight by +10!
+if point4==AD echo Increased Attack Damage by +20!
+if point4==MD echo Increased Magic Damage by +15!
+if point4==HE echo Increased Healing Effectiveness by +10 Health!
+echo Current Stats: %point0% %point1% %point2% %point3%
+goto skillselect6
+
+:skillselect6
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point5=What attribute do you wish to level up with your 6th point?
+if point5==W echo Increased weight by +10!
+if point5==AD echo Increased Attack Damage by +20!
+if point5==MD echo Increased Magic Damage by +15!
+if point5==HE echo Increased Healing Effectiveness by +10 Health!
+echo Current Stats: %point0% %point1% %point2% %point3% %point4%
+goto skillselect7
+
+:skillselect7
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point6=What attribute do you wish to level up with your 7th point?
+if point6==W echo Increased weight by +10!
+if point6==AD echo Increased Attack Damage by +20!
+if point6==MD echo Increased Magic Damage by +15!
+if point6==HE echo Increased Healing Effectiveness by +10 Health!
+echo Current Stats: %point0% %point1% %point2% %point3% %point4% %point5%
+goto skillselect8
+
+:skillselect8
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point7=What attribute do you wish to level up with your 8th point?
+if point7==W echo Increased weight by +10!
+if point7==AD echo Increased Attack Damage by +20!
+if point7==MD echo Increased Magic Damage by +15!
+if point7==HE echo Increased Healing Effectiveness by +10 Health!
+echo Current Stats: %point0% %point1% %point2% %point3% %point4% %point5% %point6%
+goto skillselect9
+
+:skillselect9
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point8=What attribute do you wish to level up with your 9th point?
+if point8==W echo Increased weight by +10!
+if point8==AD echo Increased Attack Damage by +20!
+if point8==MD echo Increased Magic Damage by +15!
+if point8==HE echo Increased Healing Effectiveness by +10 Health!
+echo Current Stats: %point0% %point1% %point2% %point3% %point4% %point5% %point6% %point7% 
+goto skillselect10
+
+:skillselect10
+cls
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point9=What attribute do you wish to level up with your 10th and final point?
+if point9==W echo Increased weight by +10!
+if point9==AD echo Increased Attack Damage by +20!
+if point9==MD echo Increased Magic Damage by +15!
+if point9==HE echo Increased Healing Effectiveness by +10 Health!
+echo Chosen Stats:%point0% %point1% %point2% %point3% %point4% %point5% %point6% %point7% %point8% %point9%
+set /p statsure=Are these the stats you want to use as your base stats? (The points given to these attributes will not be refunded with Mindwipe Tonics or other items!) Y/N:
+if %statsure%==Y goto npcnamer
+if %statsure%==N goto resetstats
+if %statsure%==y goto npcnamer
+if %statsure%==n goto resetstats
+ping locahost -n 3 >nul
+
+:npcnamer
+cls
+echo Welcome to the NPC namer %name% the %class%! Here, you choose the names for your 3 NPC band members!
+set /p npc1=What would you like to name NPC 1?: 
+cls
+echo Welcome to the NPC namer %name% the %class%! Here, you choose the names for your 3 NPC band members!
+set /p npc2=What would you like to name NPC 2?: 
+cls
+echo Welcome to the NPC namer %name% the %class%! Here, you choose the names for your 3 NPC band members!
+set /p npc3=What would you like to name NPC 3?: 
+cls
+echo Welcome to the NPC namer %name% the %class%! Here, you choose the names for your 3 NPC band members!
+set /p npcQ1=Are the names of the NPCs listed correctly? (Y/N): %npc1% %npc2% %npc3%: 
+if %npcQ1%==Y goto classpresets0
+if %npcQ1%==y goto classpresets0
+if %npcQ1%==N goto classpresets0
+if %npcQ1%==n goto classpresets0
+echo That is an invalid answer, please answer either Y or N.
+
+:classpresets0
+cls
+echo Welcome to the NPC class presets menu! Select one of the presets to use for the rest of your band!
+echo Preset 1: Equal Spread
+echo Preset 2: Pack Mule
+echo Preset 3: Harry Potter
+echo Preset 4: Berzerker
+echo Preset 5: Healer
+set /p presetchoice=Which preset would you like for %npc1%?
+if %presetchoice%==1 goto npcClass
+if %presetchoice%==2 goto npcClass
+if %presetchoice%==3 goto npcClass
+if %presetchoice%==4 goto npcClass
+if %presetchoice%==5 goto npcClass
+
+:npcClass
+cls
+set /p ClassConfirm1=%npc1%'s class is %presetchoice%, is this correct (Y/N)?: 
+if %ClassConfirm1%==Y goto classpresets1
+if %classConfirm1%==y goto classpresets1
+if %classConfirm1%==N goto classpresets0
+if %classConfirm1%==n goto classpresets0
