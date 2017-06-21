@@ -1,6 +1,7 @@
 ***Start/Intro***
 @echo off
 :start
+cls
 title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
 set /p name=Welcome to the game, what is your name?:
 if %name%==AAAAAA echo That's not original!
