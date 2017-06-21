@@ -70,6 +70,7 @@ color 90
 color AB
 color CD
 color EF
+color 0f
 set /a loop=%loop%+1
 if %loop%==50 goto start
 goto loop
