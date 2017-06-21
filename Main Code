@@ -1,51 +1,15 @@
-:start
+***Start/Intro***
 @echo off
+:start
 title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
 set /p name=Welcome to the game, what is your name?:
 if %name%==AAAAAA echo That's not original!
 ping localhost -n 3 >nul
 if %name%==ChrisPBacon goto crispy
-cls
-goto selectclass
 
-
-:WARRIORSELECT1
-cls
-set /p question1=Your class is Warrior, is this correct Y/N?:
-if %question1%==Y goto skillselect1
-if %question1%==N goto selectclass
-echo That is an invalid option.
-ping localhost -n 3 >nul
-goto WARRIORSELECT1
-
-:PALADINSELECT1
-cls
-set /p question1=Your class is Paladin, is this correct Y/N?:
-if %question1%==Y goto skillselect1
-if %question1%==N goto selectclass
-echo That is an invalid option.
-ping localhost -n 3 >nul
-goto PALADINSELECT1
-
-:MAGESELECT1
-cls
-set /p question1=Your class is Mage, is this correct Y/N?:
-if %question1%==Y goto skillselect1
-if %question1%==N goto selectclass
-echo That is an invalid option.
-ping localhost -n 3 >nul
-goto MAGESELECT1
-
-:CLERICSELECT1
-cls
-set /p question1=Your class is Cleric, is this correct Y/N?:
-if %question1%==Y goto clerichealer
-if %question1%==N goto selectclass
-echo That is an invalid option.
-ping localhost -n 3 >nul
-goto CLERICSELECT1
-
+***Character Creation***
 :selectclass
+cls
 echo Welcome to the game, %name%!
 ping localhost -n 2 >nul
 echo Warrior
@@ -53,16 +17,36 @@ echo Paladin
 echo Mage
 echo Cleric
 set /p CLASS=What class would you like to be?:
-if %CLASS%==Warrior goto WARRIORSELECT1
-if %CLASS%==Paladin goto PALADINSELECT1
-if %CLASS%==Mage goto MAGESELECT1
-if %CLASS%==Cleric goto CLERICSELECT1
+if %CLASS%==Warrior goto Sure
+if %CLASS%==Paladin goto Sure
+if %CLASS%==Mage goto Sure
+if %CLASS%==Cleric goto clerichealer
+echo That is not a class!
+pause
+goto selectclass
 
+:Sure
+cls
+set /p question1=Your class is %CLASS%, is this correct Y/N?:
+if %question1%==Y goto skillselect1
+if %question1%==N goto selectclass
+echo That is an invalid option.
+pause
+goto Sure
 
 :clerichealer
-set /p surecleric=Are you sure you wish to be the Cleric? This class does 0 damage and can only heal Y/N!:
-if %surecleric%==Y goto skillselect1
-if %surecleric%==N goto selectclass
+cls
+set /p option=Your class is %CLASS%, is this correct Y/N?:
+if %option%==Y goto clerichealer2
+if %option1%==N goto selectclass
+echo That is an invalid option.
+pause
+clerichealer
+
+:clerichealer2
+set /p option=Are you sure you wish to be the Cleric? This class does 0 damage and can only heal Y/N!:
+if %option%==Y goto skillselect1
+if %option%==N goto selectclass
 
 :skillselect1
 echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
