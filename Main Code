@@ -1,0 +1,220 @@
+:start
+@echo off
+title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
+set /p name=Welcome to the game, what is your name?:
+if %name%==AAAAAA echo That's not original!
+if %name%==ChrisPBacon goto crispy
+cls
+goto selectclass
+
+
+:WARRIORSELECT1
+cls
+set /p question1=Your class is Warrior, is this correct Y/N?:
+if %question1%==Y goto skillselect1
+if %question1%==N goto selectclass
+
+:PALADINSELECT1
+cls
+set /p question1=Your class is Paladin, is this correct Y/N?:
+if %question1%==Y goto skillselect1
+if %question1%==N goto selectclass
+
+:MAGESELECT1
+cls
+set /p question1=Your class is Mage, is this correct Y/N?:
+if %question1%==Y goto skillselect1
+if %question1%==N goto selectclass
+
+:CLERICSELECT1
+cls
+set /p question1=Your class is Cleric, is this correct Y/N?:
+if %question1%==Y goto clerichealer
+if %question1%==N goto selectclass
+
+
+:selectclass
+echo Welcome to the game, %name%!
+ping localhost -n 2 >nul
+echo Warrior
+echo Paladin
+echo Mage
+echo Cleric
+set /p CLASS=What class would you like to be?:
+if %CLASS%==Warrior goto WARRIORSELECT1
+if %CLASS%==Paladin goto PALADINSELECT1
+if %CLASS%==Mage goto MAGESELECT1
+if %CLASS%==Cleric goto CLERICSELECT1
+
+
+:clerichealer
+set /p surecleric=Are you sure you wish to be the Cleric? This class does 0 damage and can only heal Y/N!:
+if %surecleric%==Y goto skillselect1
+if %surecleric%==N goto selectclass
+
+:skillselect1
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point1=What attribute do you wish to level up with your 1st point?
+if point1==W echo Increased weight by 10!
+if point1==AD echo Increased Attack Damage by 20!
+if point1==MD echo Increased Magic Damage by 15!
+if point1==HE echo Increased Healing Effectiveness by 10 Health!
+goto skillselect2
+
+:skillselect2
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point2=What attribute do you wish to level up with your 2nd point?
+if point2==W echo Increased weight by 10!
+if point2==AD echo Increased Attack Damage by 20!
+if point2==MD echo Increased Magic Damage by 15!
+if point2==HE echo Increased Healing Effectiveness by 10 Health!
+echo Current Stats %point1%
+goto skillselect3
+
+:skillselect3
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point3=What attribute do you wish to level up with your 3rd point?
+if point3==W echo Increased weight by 10!
+if point3==AD echo Increased Attack Damage by 20!
+if point3==MD echo Increased Magic Damage by 15!
+if point3==HE echo Increased Healing Effectiveness by 10 Health!
+echo Current Stats: %point1% %point2%
+goto skillselect4
+
+:skillselect4
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point4=What attribute do you wish to level up with your 4th point?
+if point4==W echo Increased weight by 10!
+if point4==AD echo Increased Attack Damage by 20!
+if point4==MD echo Increased Magic Damage by 15!
+if point4==HE echo Increased Healing Effectiveness by 10 Health!
+echo Current Stats: %point1% %point2% %point3%
+goto skillselect5
+
+:skillselect5
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point5=What attribute do you wish to level up with your 1st point?
+if point5==W echo Increased weight by +10!
+if point5==AD echo Increased Attack Damage by +20!
+if point5==MD echo Increased Magic Damage by +15!
+if point5==HE echo Increased Healing Effectiveness by +10 Health!
+echo %point1% %point2% %point3% %point4% 
+goto skillselect6
+
+:skillselect6
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point6=What attribute do you wish to level up with your 1st point?
+if point6==W echo Increased weight by +10!
+if point6==AD echo Increased Attack Damage by +20!
+if point6==MD echo Increased Magic Damage by +15!
+if point6==HE echo Increased Healing Effectiveness by +10 Health!
+echo %point1% %point2% %point3% %point4% %point5% 
+goto skillselect7
+
+:skillselect7
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point7=What attribute do you wish to level up with your 1st point?
+if point7==W echo Increased weight by +10!
+if point7==AD echo Increased Attack Damage by +20!
+if point7==MD echo Increased Magic Damage by +15!
+if point7==HE echo Increased Healing Effectiveness by +10 Health!
+echo %point1% %point2% %point3% %point4% %point5% %point6%
+goto skillselect8
+
+:skillselect8
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point8=What attribute do you wish to level up with your 1st point?
+if point8==W echo Increased weight by +10!
+if point8==AD echo Increased Attack Damage by +20!
+if point8==MD echo Increased Magic Damage by +15!
+if point8==HE echo Increased Healing Effectiveness by +10 Health!
+echo %point1% %point2% %point3% %point4% %point5% %point6% %point7%
+goto skillselect9
+
+:skillselect9
+cls
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point9=What attribute do you wish to level up with your 1st point?
+if point9==W echo Increased weight by +10!
+if point9==AD echo Increased Attack Damage by +20!
+if point9==MD echo Increased Magic Damage by +15!
+if point9==HE echo Increased Healing Effectiveness by +10 Health!
+echo %point1% %point2% %point3% %point4% %point5% %point6% %point7% %point8%
+goto skillselect10
+
+:skillselect10
+cls
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+set /p point10=What attribute do you wish to level up with your 1st point?
+if point10==W echo Increased weight by +10!
+if point10==AD echo Increased Attack Damage by +20!
+if point10==MD echo Increased Magic Damage by +15!
+if point10==HE echo Increased Healing Effectiveness by +10 Health!
+echo %point1% %point2% %point3% %point4% %point5% %point6% %point7% %point8% %point9%
+
+
+
+:crispy
+echo Welcome Admin!
+echo 
+echo 1) Force Delete current save
+echo 2) Implement Preset save
+set /p bacon=What do you wish to do?
+if %bacon%==1 goto forcedelete
+if %bacon%==2 goto presets
+
+
+:skillselectintro
+echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+
+:forcedelete
+set /p deletesure=Are you sure you want to delete the save in use (Y/N)?:
+
+if %deletesure%==Y del PlayerData.txt
+if %deletesure%=N goto 2
