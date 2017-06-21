@@ -62,7 +62,8 @@ echo                                                                            
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
-:intro
+set loop=0
+:loop
 color 12
 color 34
 color 56
@@ -71,8 +72,9 @@ color 90
 color AB
 color CD
 color EF
-goto start
-
+set /a loop=%loop%+1
+if %loop%==8 goto start
+goto loop
 
 :start
 cls
