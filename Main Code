@@ -4,7 +4,6 @@ set /a W=0
 set /a AD=0
 set /a MD=0
 set /a HE=0
-goto gamestart
 cls
 echo    ______                     _         ______            __                      ____                  __ 
 echo   / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
@@ -587,3 +586,4 @@ ping localhost -n 1 >nul
 pause
 cls
 echo Alright, I'll stop ripping off UNDERTALE now.
+pause
