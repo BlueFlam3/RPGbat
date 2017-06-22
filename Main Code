@@ -1,26 +1,26 @@
 @echo off
-@echo @echo off> WhatAreYouDoing.bat
-@echo echo What are you doing?>> WhatAreYouDoing.bat
-@echo echo GET>> WhatAreYouDoing.bat
-@echo echo BACK>> WhatAreYouDoing.bat
-@echo echo TO>> WhatAreYouDoing.bat
-@echo echo PLAYING>> WhatAreYouDoing.bat
-@echo echo THE>> WhatAreYouDoing.bat
-@echo echo GAME>> WhatAreYouDoing.bat
-@echo pause>> WhatAreYouDoing.bat
-set /a Skillpoints=10
-set /a W=0
-set /a AD=0
-set /a MD=0
-set /a HE=0
+echo. 2>WhatAreYouDoing.bat
+(
+echo @echo off> WhatAreYouDoing.bat
+echo echo What are you doing?
+echo echo GET
+echo echo BACK
+echo echo TO
+echo echo PLAYING
+echo echo THE
+echo echo GAME
+echo pause
+) < WhatAreYouDoing.bat
+***Start/Intro***
+@echo off
+title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
 cls
 echo    ______                     _         ______            __                      ____                  __ 
 echo   / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
 echo  / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo                                                                      /____/                                   
-ping -n 1 localhost>nul
+echo Seizure Warning...                                                   /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 cls
@@ -29,8 +29,7 @@ echo    / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________
 echo   / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo  / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo  \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo                                                                       /____/                                
-ping -n 1 localhost>nul
+echo Seizure Warning...                                                                   /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 cls
@@ -39,8 +38,7 @@ echo     / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ _______
 echo    / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo   / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo   \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo                                                                        /____/                                
-ping -n 1 localhost>nul
+echo Seizure Warning...                                                     /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 cls
@@ -49,8 +47,7 @@ echo       / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ _____
 echo      / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo     / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo     \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo                                                                          /____/                               
-ping -n 1 localhost>nul
+echo Seizure Warning...                                                       /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 cls
@@ -59,9 +56,7 @@ echo        / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ____
 echo       / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo      / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo      \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo                                                                           /____/                               
-
-ping -n 1 localhost>nul
+echo Seizure Warning...                                                        /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 cls
@@ -70,10 +65,10 @@ echo         / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ___
 echo        / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo       / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo       \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo                                                                            /____/                               
+echo Seizure Warning...                                                         /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
-ping -n 1 localhost>nul
+ping -n 2 localhost>nul
 set loop=0
 :loop
 color 12
@@ -84,23 +79,111 @@ color 90
 color AB
 color CD
 color EF
-color 0f
+ping -n localhost>nul
 set /a loop=%loop%+1
-if %loop%==10 goto start
+if %loop%==50 goto IsThereAPlayer?
 goto loop
 
-:start
-title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
-set /p name=Welcome to the game, what is your name?:
-if %name%==AAAAAA echo That's not original!
-ping localhost -n 3 >nul
-if %name%==ChrisPBacon goto crispy
+
+:IsThereAPlayer?
+color 0F
+if exist PlayerData.txt goto menuTrue
+goto menuFalse
+
+:menuFalse
+cls
+echo ############
+echo #1.New Game#
+echo #2.Options #
+echo #3.Exit    #
+echo ############
+echo There is currently no player save.
+echo (If there is a save but you see this screen, then the save has either been moved or has been tampered with, so sadly you have to create a new save.)
+set /p option=Enter Option:
+if %option%==1 goto NewCharacter
+if %option%==2 goto optionsFalse
+if %option%==3 exit
+echo That is not a valid option, please enter a number instead
+pause
+goto menuFalse
+
+:menuTrue
+set option=pepe
+< PlayerData.txt (
+set /p name=
+set /p Class=
+set /p W=
+set /p AD=
+set /p MD=
+set /p HE=
+)
+:menuTrue2
+cls
+echo ############
+echo #1)Continue#
+echo #2)Options #
+echo #3)Exit    #
+echo ############
+echo %name% the %Class% currently exists
+echo Their current stats are: Weight=%W% Attack Damage=%AD% Magic Damage=%MD% Healing Effectiveness=%HE%
+set /p option=Enter Option:
+if %option%==1 goto start
+if %option%==2 goto optionsTrue
+if %option%==3 exit
+echo That is not a valid option, please enter a number instead
+pause
+goto menuTrue2
+
+
+:optionsFalse
+cls
+echo There is currently no save that can be deleted, so there is nothing you can do here
+pause
+goto menuFalse
+
+:no
+echo There is no current save, so no save can be deleted.
+
+:optionsTrue
+cls
+set option=pepe
+echo Welcome to the options screen!
+echo 1)Go back to the title screen
+echo 2)Delete Current Save
+set /p option=Enter Option:
+if %option%==1 goto menuTrue2
+if %option%==2 goto aus
+echo Invalid Input
+pause
+goto optionsTrue
+
+:aus
+set option=pepe
+set /p option=Are you sure you want to delete %name% the %CLASS%? They will be gone forever!Y/N
+if %option%==Y goto delsave
+if %option%==N goto menuTrue
+
+:delsave
+del PlayerData.txt
+echo Save has been deleted. The game will now have to restart
+pause
+start "Generic RPG.bat"
+exit
+
+
 
 ***Character Creation***
+:NewCharacter
+color 0f
+cls
+
+set /p name=Welcome to the game, what is your name?:
+echo Welcome to the game, %name%!
+if %name%==AAAAAA echo That's not original!
+ping -n 4 localhost>nul
+
 :selectclass
 cls
-echo Welcome to the game, %name%!
-ping localhost -n 2 >nul
 echo Warrior
 echo Paladin
 echo Mage
@@ -117,7 +200,7 @@ goto selectclass
 :Sure
 cls
 set /p question1=Your class is %CLASS%, is this correct Y/N?:
-if %question1%==Y goto skillselect
+if %question1%==Y goto skillselect1
 if %question1%==N goto selectclass
 echo That is an invalid option.
 pause
@@ -130,15 +213,22 @@ if %option%==Y goto clerichealer2
 if %option1%==N goto selectclass
 echo That is an invalid option.
 pause
-clerichealer
+goto clerichealer
 
 :clerichealer2
 set /p option=Are you sure you wish to be the Cleric? This class does 0 damage and can only heal Y/N!:
-if %option%==Y goto skillselect
+if %option%==Y goto skillselect1
 if %option%==N goto selectclass
+echo That is an invalid option.
+pause
+goto clerichealer2
 
-
-
+:skillselect1
+set /a Skillpoints=10
+set /a W=0
+set /a AD=0
+set /a MD=0
+set /a HE=0
 :skillselect
 set option=q
 cls
@@ -244,14 +334,19 @@ goto skillselect
 
 :sklsp
 set /a Skillpoints=%Skillpoints%-1
-if %Skillpoints%==0 goto aphbs
+if %Skillpoints%==0 goto npcnamer
 goto skillselect
 
-:aphbs
-echo All points have been spent, you can substitiute the place it goes to once all skill points are
-echo spent if you want to. This can be done by changing the aphbs to what ever you want, this said
-echo text being located near the end at this point: if %Skillpoints%==0 goto aphbs
-pause
+:npcnamer
+echo. 2>PlayerData.txt
+(
+echo %name%
+echo %CLASS%
+echo %W%
+echo %AD%
+echo %MD%
+echo %HE%
+) > PlayerData.txt
 
 
 :npcnamer
