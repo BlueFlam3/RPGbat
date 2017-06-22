@@ -70,12 +70,12 @@ color 90
 color AB
 color CD
 color EF
-color 0f
 set /a loop=%loop%+1
-if %loop%==50 goto start
+if %loop%==100 goto start
 goto loop
 
 :start
+color 0f
 cls
 title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
 set /p name=Welcome to the game, what is your name?:
