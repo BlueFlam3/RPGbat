@@ -1,7 +1,7 @@
 @echo off
 echo. 2>WhatAreYouDoing.bat
 (
-echo @echo off> WhatAreYouDoing.bat
+echo @echo off WhatAreYouDoing.bat
 echo echo What are you doing?
 echo echo GET
 echo echo BACK
@@ -10,7 +10,7 @@ echo echo PLAYING
 echo echo THE
 echo echo GAME
 echo pause
-) < WhatAreYouDoing.bat
+) > WhatAreYouDoing.bat
 ***Start/Intro***
 @echo off
 title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
