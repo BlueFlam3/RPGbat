@@ -124,157 +124,119 @@ set /p option=Are you sure you wish to be the Cleric? This class does 0 damage a
 if %option%==Y goto skillselect1
 if %option%==N goto selectclass
 
-:skillselect1
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point0=What attribute do you wish to level up with your 1st point?
-if point0==W echo Increased weight by 10!
-if point0==AD echo Increased Attack Damage by 20!
-if point0==MD echo Increased Magic Damage by 15!
-if point0==HE echo Increased Healing Effectiveness by 10 Health!
-goto skillselect2
-
-:skillselect2
+@echo off
+set /a Skillpoints=10
+set /a W=0
+set /a AD=0
+set /a MD=0
+set /a HE=0
+:skillselect
+set option=q
 cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
+echo Welcome to the skill selection menu, NAMEPLACEHOLDER the CLASSPLACEHOLDER! From here you can select your initial skills, with 10 points to spend at first and more can be gained by leveling up! (If you would like to refund any points, simply enter the assigned character with a - after it. e.g. AD-)
+echo Availiable Points to spend: %Skillpoints%
 echo Weight (W)
 echo Attack Damage (AD)
 echo Magic Damage (MD)
 echo Healing Effectiveness (HE)
-set /p point1=What attribute do you wish to level up with your 2nd point?
-if point1==W echo Increased weight by 10!
-if point1==AD echo Increased Attack Damage by 20!
-if point1==MD echo Increased Magic Damage by 15!
-if point1==HE echo Increased Healing Effectiveness by 10 Health!
-echo Current Stats %point0%
-goto skillselect3
+echo Current Stats: Weight=%W% Attack Damage=%AD% Magic Damage=%MD% Healing Effectiveness=%HE%
+set /p option=What attribute do you wish to level up?:
 
-:skillselect3
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point2=What attribute do you wish to level up with your 3rd point?
-if point2==W echo Increased weight by 10!
-if point2==AD echo Increased Attack Damage by 20!
-if point2==MD echo Increased Magic Damage by 15!
-if point2==HE echo Increased Healing Effectiveness by 10 Health!
-echo Current Stats: %point0% %point1%
-goto skillselect4
+if %option%==W (
+set /a W=%W%+10
+echo Increased Weight by 10!
+pause
+goto sklsp
+)
 
-:skillselect4
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point3=What attribute do you wish to level up with your 4th point?
-if point3==W echo Increased weight by 10!
-if point3==AD echo Increased Attack Damage by 20!
-if point3==MD echo Increased Magic Damage by 15!
-if point3==HE echo Increased Healing Effectiveness by 10 Health!
-echo Current Stats: %point0% %point1% %point2%
-goto skillselect5
+if %option%==AD (
+set /a AD=%AD%+10
+echo Increased Attack Damage by 10!
+pause
+goto sklsp
+)
 
-:skillselect5
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point4=What attribute do you wish to level up with your 5th point?
-if point4==W echo Increased weight by +10!
-if point4==AD echo Increased Attack Damage by +20!
-if point4==MD echo Increased Magic Damage by +15!
-if point4==HE echo Increased Healing Effectiveness by +10 Health!
-echo Current Stats: %point0% %point1% %point2% %point3%
-goto skillselect6
+if %option%==MD (
+set /a MD=%MD%+15
+echo Increased Magic Damage by 15!
+pause
+goto sklsp
+)
 
-:skillselect6
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point5=What attribute do you wish to level up with your 6th point?
-if point5==W echo Increased weight by +10!
-if point5==AD echo Increased Attack Damage by +20!
-if point5==MD echo Increased Magic Damage by +15!
-if point5==HE echo Increased Healing Effectiveness by +10 Health!
-echo Current Stats: %point0% %point1% %point2% %point3% %point4%
-goto skillselect7
+if %option%==HE (
+set /a HE=%HE%+10
+echo Increased Healing Effectiveness by 10!
+pause
+goto sklsp
+)
 
-:skillselect7
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point6=What attribute do you wish to level up with your 7th point?
-if point6==W echo Increased weight by +10!
-if point6==AD echo Increased Attack Damage by +20!
-if point6==MD echo Increased Magic Damage by +15!
-if point6==HE echo Increased Healing Effectiveness by +10 Health!
-echo Current Stats: %point0% %point1% %point2% %point3% %point4% %point5%
-goto skillselect8
 
-:skillselect8
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point7=What attribute do you wish to level up with your 8th point?
-if point7==W echo Increased weight by +10!
-if point7==AD echo Increased Attack Damage by +20!
-if point7==MD echo Increased Magic Damage by +15!
-if point7==HE echo Increased Healing Effectiveness by +10 Health!
-echo Current Stats: %point0% %point1% %point2% %point3% %point4% %point5% %point6%
-goto skillselect9
 
-:skillselect9
-cls
-echo Welcome to the skill selection menu, %Name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by levelling up!
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point8=What attribute do you wish to level up with your 9th point?
-if point8==W echo Increased weight by +10!
-if point8==AD echo Increased Attack Damage by +20!
-if point8==MD echo Increased Magic Damage by +15!
-if point8==HE echo Increased Healing Effectiveness by +10 Health!
-echo Current Stats: %point0% %point1% %point2% %point3% %point4% %point5% %point6% %point7% 
-goto skillselect10
+if %option%==W- (
+if %W%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a W=%W%-10
+echo Point Refunded
+echo Decreased Weight by 10!
+pause
+goto sklsp-
+)
 
-:skillselect10
-cls
-echo Weight (W)
-echo Attack Damage (AD)
-echo Magic Damage (MD)
-echo Healing Effectiveness (HE)
-set /p point9=What attribute do you wish to level up with your 10th and final point?
-if point9==W echo Increased weight by +10!
-if point9==AD echo Increased Attack Damage by +20!
-if point9==MD echo Increased Magic Damage by +15!
-if point9==HE echo Increased Healing Effectiveness by +10 Health!
-echo Chosen Stats:%point0% %point1% %point2% %point3% %point4% %point5% %point6% %point7% %point8% %point9%
-set /p statsure=Are these the stats you want to use as your base stats? (The points given to these attributes will not be refunded with Mindwipe Tonics or other items!) Y/N:
-if %statsure%==Y goto npcnamer
-if %statsure%==N goto resetstats
-if %statsure%==y goto npcnamer
-if %statsure%==n goto resetstats
-ping locahost -n 3 >nul
+if %option%==AD- (
+if %AD%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a AD=%AD%-10
+echo Point Refunded
+echo Decreased Attack Damage by 10!
+pause
+goto sklsp-
+)
+
+if %option%==MD- (
+if %MD%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a MD=%MD%-15
+echo Point Refunded
+echo Decreased Magic Damage by 15!
+pause
+goto sklsp-
+)
+
+if %option%==HE- (
+if %HE%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a HE=%HE%-10
+echo Point Refunded
+echo Decreased Healing Effectiveness by 10!
+pause
+goto sklsp-
+)
+
+
+echo That is not a valid option, make sure you typed it correctly
+pause
+goto skillselect
+
+:sklsp-
+set /a Skillpoints=%Skillpoints%+1
+goto skillselect
+
+:sklsp
+set /a Skillpoints=%Skillpoints%-1
+if %Skillpoints%==0 goto npcnamer
+goto skillselect
 
 :npcnamer
 cls
