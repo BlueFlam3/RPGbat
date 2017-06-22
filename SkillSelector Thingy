@@ -1,0 +1,119 @@
+@echo off
+set /a Skillpoints=10
+set /a W=0
+set /a AD=0
+set /a MD=0
+set /a HE=0
+:skillselect
+set option=q
+cls
+echo Welcome to the skill selection menu, NAMEPLACEHOLDER the CLASSPLACEHOLDER! From here you can select your initial skills, with 10 points to spend at first and more can be gained by leveling up! (If you would like to refund any points, simply enter the assigned character with a - after it. e.g. AD-)
+echo Availiable Points to spend: %Skillpoints%
+echo Weight (W)
+echo Attack Damage (AD)
+echo Magic Damage (MD)
+echo Healing Effectiveness (HE)
+echo Current Stats: Weight=%W% Attack Damage=%AD% Magic Damage=%MD% Healing Effectiveness=%HE%
+set /p option=What attribute do you wish to level up?:
+
+if %option%==W (
+set /a W=%W%+10
+echo Increased Weight by 10!
+pause
+goto sklsp
+)
+
+if %option%==AD (
+set /a AD=%AD%+10
+echo Increased Attack Damage by 10!
+pause
+goto sklsp
+)
+
+if %option%==MD (
+set /a MD=%MD%+15
+echo Increased Magic Damage by 15!
+pause
+goto sklsp
+)
+
+if %option%==HE (
+set /a HE=%HE%+10
+echo Increased Healing Effectiveness by 10!
+pause
+goto sklsp
+)
+
+
+
+if %option%==W- (
+if %W%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a W=%W%-10
+echo Point Refunded
+echo Decreased Weight by 10!
+pause
+goto sklsp-
+)
+
+if %option%==AD- (
+if %AD%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a AD=%AD%-10
+echo Point Refunded
+echo Decreased Attack Damage by 10!
+pause
+goto sklsp-
+)
+
+if %option%==MD- (
+if %MD%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a MD=%MD%-15
+echo Point Refunded
+echo Decreased Magic Damage by 15!
+pause
+goto sklsp-
+)
+
+if %option%==HE- (
+if %HE%==0 (
+echo You can't refund points from nothing!
+pause
+goto skillselect
+)
+set /a HE=%HE%-10
+echo Point Refunded
+echo Decreased Healing Effectiveness by 10!
+pause
+goto sklsp-
+)
+
+
+echo That is not a valid option, make sure you typed it correctly
+pause
+goto skillselect
+
+:sklsp-
+set /a Skillpoints=%Skillpoints%+1
+goto skillselect
+
+:sklsp
+set /a Skillpoints=%Skillpoints%-1
+if %Skillpoints%==0 goto aphbs
+goto skillselect
+
+:aphbs
+echo All points have been spent, you can substitiute the place it goes to once all skill points are
+echo spent if you want to. This can be done by changing the aphbs to what ever you want, this said
+echo text being located near the end at this point: if %Skillpoints%==0 goto aphbs
+pause
