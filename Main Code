@@ -1,12 +1,16 @@
-***Start/Intro***
 @echo off
+set /a Skillpoints=10
+set /a W=0
+set /a AD=0
+set /a MD=0
+set /a HE=0
 cls
 echo    ______                     _         ______            __                      ____                  __ 
 echo   / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
 echo  / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo Seizure Warning...                                                   /____/                               
+echo                                                                      /____/                                   
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
@@ -16,7 +20,7 @@ echo    / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________
 echo   / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo  / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo  \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo Seizure Warning...                                                                   /____/                               
+echo                                                                       /____/                                
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
@@ -26,7 +30,7 @@ echo     / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ _______
 echo    / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo   / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo   \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo Seizure Warning...                                                     /____/                               
+echo                                                                        /____/                                
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
@@ -36,7 +40,7 @@ echo       / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ _____
 echo      / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo     / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo     \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo Seizure Warning...                                                       /____/                               
+echo                                                                          /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
@@ -46,7 +50,8 @@ echo        / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ____
 echo       / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo      / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo      \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo Seizure Warning...                                                        /____/                               
+echo                                                                           /____/                               
+
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
@@ -56,7 +61,7 @@ echo         / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ___
 echo        / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
 echo       / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
 echo       \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
-echo Seizure Warning...                                                         /____/                               
+echo                                                                            /____/                               
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
 ping -n 1 localhost>nul
@@ -70,13 +75,12 @@ color 90
 color AB
 color CD
 color EF
+color 0f
 set /a loop=%loop%+1
-if %loop%==100 goto start
+if %loop%==10 goto start
 goto loop
 
 :start
-color 0f
-cls
 title Generic Fantasy Quest - A Text-Based RPG by BlueFlame and KingNarwhal
 set /p name=Welcome to the game, what is your name?:
 if %name%==AAAAAA echo That's not original!
@@ -104,7 +108,7 @@ goto selectclass
 :Sure
 cls
 set /p question1=Your class is %CLASS%, is this correct Y/N?:
-if %question1%==Y goto skillselect1
+if %question1%==Y goto skillselect
 if %question1%==N goto selectclass
 echo That is an invalid option.
 pause
@@ -121,19 +125,15 @@ clerichealer
 
 :clerichealer2
 set /p option=Are you sure you wish to be the Cleric? This class does 0 damage and can only heal Y/N!:
-if %option%==Y goto skillselect1
+if %option%==Y goto skillselect
 if %option%==N goto selectclass
 
-@echo off
-set /a Skillpoints=10
-set /a W=0
-set /a AD=0
-set /a MD=0
-set /a HE=0
+
+
 :skillselect
 set option=q
 cls
-echo Welcome to the skill selection menu, NAMEPLACEHOLDER the CLASSPLACEHOLDER! From here you can select your initial skills, with 10 points to spend at first and more can be gained by leveling up! (If you would like to refund any points, simply enter the assigned character with a - after it. e.g. AD-)
+echo Welcome to the skill selection menu, %name% the %CLASS%! From here you can select your initial skills, with 10 points to spend at first and more can be gained by leveling up! (If you would like to refund any points, simply enter the assigned character with a - after it. e.g. AD-)
 echo Availiable Points to spend: %Skillpoints%
 echo Weight (W)
 echo Attack Damage (AD)
@@ -235,8 +235,15 @@ goto skillselect
 
 :sklsp
 set /a Skillpoints=%Skillpoints%-1
-if %Skillpoints%==0 goto npcnamer
+if %Skillpoints%==0 goto aphbs
 goto skillselect
+
+:aphbs
+echo All points have been spent, you can substitiute the place it goes to once all skill points are
+echo spent if you want to. This can be done by changing the aphbs to what ever you want, this said
+echo text being located near the end at this point: if %Skillpoints%==0 goto aphbs
+pause
+
 
 :npcnamer
 cls
@@ -258,6 +265,7 @@ if %npcQ1%==n goto classpresets0
 echo That is an invalid answer, please answer either Y or N.
 
 :classpresets0
+set /a npc=0
 cls
 echo Welcome to the NPC class presets menu! Select one of the presets to use for the rest of your band!
 echo Preset 1: Equal Spread
@@ -279,3 +287,52 @@ if %ClassConfirm1%==Y goto classpresets1
 if %classConfirm1%==y goto classpresets1
 if %classConfirm1%==N goto classpresets0
 if %classConfirm1%==n goto classpresets0
+
+:classpresets1
+cls
+echo Welcome to the NPC class presets menu! Select one of the presets to use for the rest of your band!
+echo Preset 1: Equal Spread
+echo Preset 2: Pack Mule
+echo Preset 3: Harry Potter
+echo Preset 4: Berzerker
+echo Preset 5: Healer
+set /p presetchoice=Which preset would you like for %npc2%?
+if %presetchoice%==1 goto npcClass1
+if %presetchoice%==2 goto npcClass1
+if %presetchoice%==3 goto npcClass1
+if %presetchoice%==4 goto npcClass1
+if %presetchoice%==5 goto npcClass1
+
+:npcClass1
+cls
+set /p ClassConfirm1=%npc2%'s class is %presetchoice%, is this correct (Y/N)?: 
+if %ClassConfirm1%==Y goto classpresets2
+if %classConfirm1%==y goto classpresets2
+if %classConfirm1%==N goto classpresets1
+if %classConfirm1%==n goto classpresets1
+
+:classpresets2
+cls
+echo Welcome to the NPC class presets menu! Select one of the presets to use for the rest of your band!
+echo Preset 1: Equal Spread
+echo Preset 2: Pack Mule
+echo Preset 3: Harry Potter
+echo Preset 4: Berzerker
+echo Preset 5: Healer
+set /p presetchoice=Which preset would you like for %npc3%?
+if %presetchoice%==1 goto npcClass2
+if %presetchoice%==2 goto npcClass2
+if %presetchoice%==3 goto npcClass2
+if %presetchoice%==4 goto npcClass2
+if %presetchoice%==5 goto npcClass2
+
+:npcClass2
+cls
+set /p ClassConfirm1=%npc3%'s class is %presetchoice%, is this correct (Y/N)?: 
+if %ClassConfirm1%==Y goto prologue
+if %classConfirm1%==y goto prologue
+if %classConfirm1%==N goto classpresets2
+if %classConfirm1%==n goto classpresets2
+
+:prologue
+echo The tale of our heroes begins 
