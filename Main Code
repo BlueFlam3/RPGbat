@@ -4,6 +4,7 @@ set /a W=0
 set /a AD=0
 set /a MD=0
 set /a HE=0
+goto prologue
 cls
 echo    ______                     _         ______            __                      ____                  __ 
 echo   / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
@@ -335,4 +336,60 @@ if %classConfirm1%==N goto classpresets2
 if %classConfirm1%==n goto classpresets2
 
 :prologue
-echo The tale of our heroes begins 
+cls
+echo ENTER FULLSCREEN NOW!
+ping localhost -n 5 >nul
+cls
+echo The tale of our heroes begins in April 20XX, the exact time where our timeline would split into an alternate timeline where we discovered the cure for cancer 25 years early.
+pause
+cls
+echo You, %name%, were welcoming a relative home after Plumbus Treatment to cure her lung cancer when you noticed the room gradually quiver and shake gently...
+pause
+cls
+echo The room then began fading away, taking your entire family with it. You ran outside to find your friends, %npc1%, %npc2% and %npc3% fading away too.
+pause
+cls
+echo The ground began shaking, almost like an earthquake. You noticed the ground cracking beneath your feet and the last thing you remember is f all i ng    i n t  o    t  he  cr  a   ck...
+pause
+cls
+ping localhost -n 15 >nul
+echo                                 ______                     _         ______            __                      ____                  __ 
+echo                                / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo                               / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo                              / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo                              \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                                                   /____/                              
+set loop1=0
+:loop1
+color 12
+color 34
+color 56
+color 78
+color 90
+color AB
+color CD
+color EF
+color 0f
+set /a loop1=%loop1%+1
+if %loop1%==10 echo Hang in there!
+if %loop1%==18 echo It'll be over soon!
+if %loop1%==25 goto reecho
+goto loop1
+
+:reecho
+cls
+echo                                 ______                     _         ______            __                      ____                  __ 
+echo                                / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
+echo                               / / __/ _ \/ __ \/ _ \/ ___/ / ___/  / /_  / __ `/ __ \/ __/ __ `/ ___/ / / /  / / / / / / / _ \/ ___/ __/
+echo                              / /_/ /  __/ / / /  __/ /  / / /__   / __/ / /_/ / / / / /_/ /_/ (__  ) /_/ /  / /_/ / /_/ /  __(__  ) /_  
+echo                              \____/\___/_/ /_/\___/_/  /_/\___/  /_/    \__,_/_/ /_/\__/\__,_/____/\__, /   \___\_\__,_/\___/____/\__/  
+echo                                                                                                   /____/                              
+goto XCont
+
+:xcont
+set /p go=Press [X] to continue...
+if %go%==X goto GameStart
+if %go%==x goto GameStart
+
+:GameStart
+echo You wake up.
