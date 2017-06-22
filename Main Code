@@ -4,7 +4,7 @@ set /a W=0
 set /a AD=0
 set /a MD=0
 set /a HE=0
-goto prologue
+goto gamestart
 cls
 echo    ______                     _         ______            __                      ____                  __ 
 echo   / ____/__  ____  ___  _____(_)____   / ____/___ _____  / /_____ ________  __   / __ \__  _____  _____/ /_
@@ -392,4 +392,198 @@ if %go%==X goto GameStart
 if %go%==x goto GameStart
 
 :GameStart
+echo Y
+ping localhost -n 1 >nul
+cls
+echo Yo
+ping localhost -n 1 >nul
+cls
+echo Yo
+ping localhost -n 1 >nul
+cls
+echo You
+ping localhost -n 1 >nul
+cls
+echo You w
+ping localhost -n 1 >nul
+cls
+echo You wa
+ping localhost -n 1 >nul
+cls
+echo You wak
+ping localhost -n 1 >nul
+cls
+echo You wake
+ping localhost -n 1 >nul
+cls
+echo You wake u
+ping localhost -n 1 >nul
+cls
+echo You wake up
+ping localhost -n 2 >nul
+cls
 echo You wake up.
+ping localhost -n 2 >nul
+pause
+echo Y
+ping localhost -n 1 >nul
+cls
+echo Yo
+ping localhost -n 1 >nul
+cls
+echo You
+ping localhost -n 1 >nul
+cls
+echo Your
+ping localhost -n 1 >nul
+cls
+echo Your h
+ping localhost -n 1 >nul
+cls
+echo Your he
+ping localhost -n 1 >nul
+cls
+echo Your hea
+ping localhost -n 1 >nul
+cls
+echo Your head
+ping localhost -n 1 >nul
+cls
+echo Your head r
+ping localhost -n 1 >nul
+cls
+echo Your head re
+ping localhost -n 1 >nul
+cls
+echo Your head rea
+ping localhost -n 1 >nul
+cls
+echo Your head real
+ping localhost -n 1 >nul
+cls
+echo Your head reall
+ping localhost -n 1 >nul
+cls
+echo Your head really
+ping localhost -n 1 >nul
+cls
+echo Your head really h
+ping localhost -n 1 >nul
+cls
+echo Your head really hu
+ping localhost -n 1 >nul
+cls
+echo Your head really hur
+ping localhost -n 1 >nul
+cls
+echo Your head really hurt
+ping localhost -n 1 >nul
+cls
+echo Your head really hurts
+ping localhost -n 2 >nul
+cls
+echo Your head really hurts.
+ping localhost -n 1 >nul
+pause
+cls
+echo T
+ping localhost -n 1 >nul
+cls
+echo Th
+ping localhost -n 1 >nul
+cls
+echo Thi
+ping localhost -n 1 >nul
+cls
+echo This
+ping localhost -n 1 >nul
+cls
+echo This i
+ping localhost -n 1 >nul
+cls
+echo This is
+ping localhost -n 1 >nul
+cls
+echo This is a
+ping localhost -n 1 >nul
+cls
+echo This is a v
+ping localhost -n 1 >nul
+cls
+echo This is a ve
+ping localhost -n 1 >nul
+cls
+echo This is a ver
+ping localhost -n 1 >nul
+cls
+echo This is a very
+ping localhost -n 1 >nul
+cls
+echo This is a very b
+ping localhost -n 1 >nul
+cls
+echo This is a very ba
+ping localhost -n 1 >nul
+cls
+echo This is a very bad
+ping localhost -n 1 >nul
+cls
+echo This is a very bad w
+ping localhost -n 1 >nul
+cls
+echo This is a very bad wa
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way t
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to s
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to st
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to sta
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to star
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start t
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start th
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start thi
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start this
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start this g
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start this ga
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start this gam
+ping localhost -n 1 >nul
+cls
+echo This is a very bad way to start this game
+ping localhost -n 2 >nul
+cls
+echo This is a very bad way to start this game.
+ping localhost -n 1 >nul
+pause
+cls
+echo Alright, I'll stop ripping off UNDERTALE now.
